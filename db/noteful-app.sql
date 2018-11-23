@@ -1,4 +1,4 @@
--- psql -U dev -d dev-restaurants-app -f ./db/noteful-app.sql
+-- psql -U dev -d dev-noteful-app -f ./db/noteful-app.sql
 DROP TABLE IF EXISTS notes;
 DROP TABLE IF EXISTS folders;
 -- SELECT CURRENT_DATE;
